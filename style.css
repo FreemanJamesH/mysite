@@ -1,0 +1,68 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+ng-view {
+  display: flex;
+  width:100%;
+  height: 100%;
+  /*flex-flow: column;*/
+  justify-content: center;
+  align-items: center;
+}
+
+.boxholder {
+  display:flex;
+  width: 100%;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  display: inline-flex;
+  margin-bottom: 5px;
+}
+
+
+.box:hover{
+  background-color: white;
+  height:50px;
+  margin-bottom: 15px;
+}
+
+.box1 {
+
+background-color: red;
+-webkit-transition: width 2s, height 0s, background-color 2s, -webkit-transform 2s;
+transition: width 2s, height 0s, background-color 2s, transform 2s;
+
+}
+
+.box2 {
+
+background-color: blue;
+-webkit-transition: width 2s, height 0s, background-color 2s, -webkit-transform 2s;
+transition: width 2s, height 0s, background-color 2s, transform 2s;
+}
+
+.box3 {
+
+background-color: yellow;
+-webkit-transition: width 2s, height 0s, background-color 2s, -webkit-transform 2s;
+transition: width 2s, height 0s, background-color 2s, transform 2s;
+
+}
+
+.box4 {
+
+background-color: green;
+-webkit-transition: width 2s, height 0s, background-color 2s, -webkit-transform 2s;
+transition: width 2s, height 0s, background-color 2s, transform 2s;
+
+}

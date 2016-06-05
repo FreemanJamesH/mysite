@@ -3,18 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>James Freeman</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script src="imagemapster.js"></script>
   <script src='https://code.angularjs.org/1.5.6/angular.js'></script>
   <script src='https://code.angularjs.org/1.5.6/angular-route.js'></script>
   <script src='https://code.angularjs.org/1.5.6/angular-animate.js'></script>
   <script src='app.js'></script>
   <script src='controllers.js'></script>
   <script src='routes.js'></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>hello, world!</h1>
-  <h2>{{2+2}}</h2>
-  <h2>Yo</h2>
-
+  <img src="images/menutransparent.png" alt="" usemap="#Map" />
+<map name="Map" id="Map">
+    <area alt="" title="" href="#" shape="poly" coords="293,411,357,354,426,310,495,264,533,243,555,234,624,215,661,211,657,246,657,310,633,384,612,425,574,477,544,503,505,536,463,570,413,594,354,614,287,625,243,620,229,614,222,588,231,547,241,492,264,443" />
+    <area alt="" title="" href="#" shape="poly" coords="608,478,652,470,705,463,759,466,781,469,771,519,763,551,757,588,744,631,720,677,668,732,633,763,580,788,554,798,511,820,487,827,448,838,429,853,394,867,351,880,297,886,252,878,241,830,252,763,269,696,297,652" />
+    <area alt="" title="" href="#" shape="poly" coords="655,766,718,764,777,764,818,774,817,801,805,860,779,929,720,1001,645,1057,574,1088,505,1115,437,1135,369,1152,300,1149,262,1133,254,1113,250,1086,250,1024,265,960,322,903,390,870" />
+    <area alt="" title="" href="#" shape="poly" coords="709,1079,762,1091,799,1106,812,1112,799,1161,777,1235,761,1265,724,1297,683,1339,668,1352,602,1386,546,1410,487,1424,438,1437,403,1439,324,1433,282,1419,265,1398,252,1299,262,1264,299,1213,338,1181,393,1157,461,1130,569,1097" />
+</map>
   <ng-view></ng-view>
 
 </body>
